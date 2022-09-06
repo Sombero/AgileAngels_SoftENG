@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="720.0" prefWidth="314.0" stylesheets="@stylesheets/styleRequest.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.wpi.agileAngels.views.RequestPopUpView">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f3f5f7" height="345.0" layoutX="27.0" layoutY="353.0" stroke="BLACK" strokeType="INSIDE" width="266.0" />
+      <Label layoutX="41.0" layoutY="54.0" prefHeight="28.0" prefWidth="225.0" style="-fx-font-weight: bold; -fx-font-size: 35;" text="Request Info" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" />
+         </effect></Label>
+      <Label layoutX="41.0" layoutY="370.0" prefHeight="28.0" prefWidth="225.0" style="-fx-font-weight: bold;" text="Employee" />
+      <Label layoutX="41.0" layoutY="441.0" prefHeight="28.0" prefWidth="225.0" style="-fx-font-weight: bold;" text="Status" />
+      <Label layoutX="34.0" layoutY="526.0" prefHeight="28.0" prefWidth="225.0" style="-fx-font-weight: bold;" text="Description" />
+      <TextField layoutX="53.0" layoutY="398.0" prefHeight="37.0" prefWidth="200.0" />
+      <TextField layoutX="56.0" layoutY="476.0" prefHeight="37.0" prefWidth="200.0" />
+      <TextField layoutX="53.0" layoutY="558.0" prefHeight="121.0" prefWidth="200.0" />
+      <Pane layoutX="23.0" layoutY="118.0" prefHeight="205.0" prefWidth="266.0" style="-fx-background-color: #f3f5f7;>
+         <children>
+            <TextField layoutX="33.0" layoutY="14.0" text="ID" />
+            <TextField layoutX="33.0" layoutY="109.0" text="Location ID" />
+            <TextField layoutX="33.0" layoutY="154.0" text="Date Created" />
+            <TextField layoutX="33.0" layoutY="59.0" text="Location" />
+         </children>
+         <opaqueInsets>
+            <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+         </opaqueInsets>
+      </Pane>
+   </children>
+</AnchorPane>

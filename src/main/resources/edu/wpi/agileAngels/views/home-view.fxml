@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="main" fx:id="anchor" maxHeight="720.0" maxWidth="1280.0" minHeight="720.0" minWidth="1280.0" prefHeight="720.0" prefWidth="1280.0" stylesheets="@stylesheets/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.wpi.agileAngels.Controllers.HomeController">
+   <children>
+
+      <ImageView fitHeight="876.0" fitWidth="1557.0" layoutX="-1.0" layoutY="-82.0" preserveRatio="true">
+         <image>
+            <Image url="@../assets/blur.png" />
+         </image>
+      </ImageView>
+      <GridPane alignment="CENTER" layoutX="159.0" layoutY="228.0" prefHeight="402.0" prefWidth="1000.0" AnchorPane.bottomAnchor="90.0" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="120.0" AnchorPane.topAnchor="228.0">
+         <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button fx:id="serviceButton" mnemonicParsing="false" onAction="#homeButton" prefHeight="270.0" prefWidth="370.0">
+               <graphic>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="20.0">
+                     <children>
+                        <ImageView fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/icons/equipment.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="Submit Request">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </graphic>
+            </Button>
+            <Button fx:id="mapButton" mnemonicParsing="false" onAction="#homeButton" prefHeight="270.0" prefWidth="370.0" GridPane.columnIndex="1">
+               <graphic>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="20.0">
+                     <children>
+                        <ImageView fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/icons/map.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="Map">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </graphic>
+            </Button>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </GridPane>
+      <fx:include source="menu-bar.fxml" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" />
+   </children>
+</AnchorPane>

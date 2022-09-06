@@ -1,0 +1,144 @@
+﻿nodeID,xcoord,ycoord,floor,building,nodeType,longName,shortName
+HBATH00102,1605,1008,2,Tower,REST,Bathroom 1 Tower Floor 2,Bathroom 0102
+HDEPT00102,2055,1330,2,Tower,DEPT,Endoscopy,Endoscopy
+HHALL00102,1875,925,2,Tower,HALL,Hallway Connector 1 Floor 2,Hallway H00102
+HHALL00202,1955,900,2,Tower,HALL,Hallway Connector 2 Floor 2,Hallway H00202
+HHALL00302,2035,900,2,Tower,HALL,Hallway Connector 3 Floor 2,Hallway H00302
+HHALL00402,1875,1025,2,Tower,HALL,Hallway Connector 4 Floor 2,Hallway H00402
+HHALL00502,1825,1025,2,Tower,HALL,Hallway Connector 5 Floor 2,Hallway H00502
+HHALL00602,1775,1080,2,Tower,HALL,Hallway Connector 6 Floor 2,Hallway H00602
+HHALL00702,1740,1165,2,Tower,HALL,Hallway Connector 7 Floor 2,Hallway H00702
+HHALL00802,1740,1230,2,Tower,HALL,Hallway Connector 8 Floor 2,Hallway H00802
+HHALL00902,1740,1280,2,Tower,HALL,Hallway Connector 9 Floor 2,Hallway H00902
+HHALL01002,2055,1280,2,Tower,HALL,Hallway Connector 10 Floor 2,Hallway H01002
+HRETL00102,1935,860,2,Tower,RETL,Garden Cafe,Garden Cafe
+HRETL00202,1615,1025,2,Tower,RETL,Vending Machine Floor 2,Vending Machine
+HRETL00302,1825,1080,2,Tower,RETL,Gift Shop Tower Floor 2,Gift Shop
+HSTAI00102,2060,880,2,Tower,STAI,Stairwell 1 Floor 2,Stairwell 0102
+HSTAI00202,1695,1165,2,Tower,STAI,Stairwell 2 Tower Floor 2,Stairwell 0202
+HSTAI00302,1790,1230,2,Tower,STAI,Escalator 1 Floor 2,Escalator 1 Floor 2
+WELEV00L02,1805,925,2,Tower,ELEV,Elevator L Floor 2,Elevator L2
+WELEV00M02,1825,1280,2,Tower,ELEV,Elevator M Floor 2,Elevator M2
+WHALL00702,1740,1500,2,Tower,HALL,Hallway Connector 11 Floor 2,Hallway W0702
+HBATH00103,1785,830,3,Tower,REST,Bathroom 1 Tower Floor 3,Bathroom 0103
+HBATH00203,1750,985,3,Tower,REST,Bathroom 2 Tower Floor 3,Bathroom 0203
+HDEPT00103,1725,900,3,Tower,DEPT,Dialysis Waiting Room,Dialysis WR
+HDEPT00203,1690,830,3,Tower,DEPT,MICU 3BC Waiting Room,MICU 3BC WR
+HHALL00103,1325,655,3,Tower,HALL,Hallway Connector 1 Floor 3,Hallway H00103
+HHALL00203,1235,985,3,Tower,HALL,Hallway Connector 2 Floor 3,Hallway H00203
+HHALL00303,1325,985,3,Tower,HALL,Hallway Connector 3 Floor 3,Hallway H00303
+HHALL00403,1325,1290,3,Tower,HALL,Hallway Connector 4 Floor 3,Hallway H00403
+HHALL00503,1680,1290,3,Tower,HALL,Hallway Connector 5 Floor 3,Hallway H00502
+HHALL00603,1735,925,3,Tower,HALL,Hallway Connector 6 Floor 3,Hallway H00603
+HHALL00703,1735,900,3,Tower,HALL,Hallway Connector 7 Floor 3,Hallway H00703
+HHALL00803,1735,865,3,Tower,HALL,Hallway Connector 8 Floor 3,Hallway H00803
+HHALL00903,1735,820,3,Tower,HALL,Hallway Connector 9 Floor 3,Hallway H00903
+HHALL01003,1785,820,3,Tower,HALL,Hallway Connector 10 Floor 3,Hallway H01003
+HHALL01103,1690,820,3,Tower,HALL,Hallway Connector 11 Floor 3,Hallway H01103
+HHALL01203,1600,820,3,Tower,HALL,Hallway Connector 12 Floor 3,Hallway H01203
+HHALL01303,1600,1030,3,Tower,HALL,Hallway Connector 13 Floor 3,Hallway H01303
+HHALL01403,1735,1030,3,Tower,HALL,Hallway Connector 14 Floor 3,Hallway H01403
+HHALL01503,1735,985,3,Tower,HALL,Hallway Connector 15 Floor 3,Hallway H01503
+HLABS00103,1235,865,3,Tower,LABS,Reproductive Endocrine Labs,Reproductive Endocrine Labs
+HSERV00103,1750,865,3,Tower,SERV,Nursing Room,Nursing Room
+HSTAI00103,1680,1275,3,Tower,STAI,Stairwell 1 Floor 3,Stairwell
+WELEV00L03,1790,925,3,Tower,ELEV,Elevator L Floor 3,Elevator L3
+WELEV00M03,1815,1290,3,Tower,ELEV,Elevator M Floor 3,Elevator M3
+CDEPT002L1,1980,844,L1,Tower,DEPT,Day Surgery Family Waiting Floor L1,Department C002L1
+CDEPT003L1,1845,844,L1,Tower,DEPT,Day Surgery Family Waiting Exit Floor L1,Department C003L1
+CHALL001L1,1732,924,L1,Tower,HALL,Hallway 1 Floor L1,Hallway C001L1
+CHALL005L1,1750,1284,L1,Tower,HALL,Hallway 5 Floor L1,Hallway C005L1
+CHALL006L1,2130,1284,L1,Tower,HALL,Hallway 6 Floor L1,Hallway C006L1
+CHALL007L1,2130,1045,L1,Tower,HALL,Hallway 7 Floor L1,Hallway C007L1
+CHALL014L1,1845,924,L1,Tower,HALL,Hallway 14 Floor L1,Hallway C014L1
+CLABS001L1,1965,1284,L1,Tower,LABS,Outpatient Fluoroscopy Floor L1,Lab C001L1
+CLABS002L1,1750,1090,L1,Tower,LABS,Pre-Op PACU Floor L1,Lab C002L1
+CREST001L1,1732,1019,L1,Tower,REST,Restroom L Elevator Floor L1,Restroom C001L1
+CREST002L1,2065,1284,L1,Tower,REST,Restroom M Elevator Floor L1,Restroom C002L1
+WELEV00LL1,1785,924,L1,Tower,ELEV,Elevator L Floor L1,Elevator LL1
+WELEV00ML1,1820,1284,L1,Tower,ELEV,Elevator M Floor L1,Elevator ML1
+CHALL005L2,1745,1280,L2,Tower,HALL,Hallway 5 Floor L2,Hallway C005L2
+CHALL006L2,1745,1009,L2,Tower,HALL,Hallway 6 Floor L2,Hallway C006L2
+CHALL007L2,1730,1009,L2,Tower,HALL,Hallway 7 Floor L2,Hallway C007L2
+CHALL008L2,1730,924,L2,Tower,HALL,Hallway 8 Floor L2,Hallway C008L2
+CHALL009L2,1730,849,L2,Tower,HALL,Hallway 9 Floor L2,Hallway C009L2
+CHALL010L2,2130,849,L2,Tower,HALL,Hallway 10 Floor L2,Hallway C010L2
+WELEV00LL2,1785,924,L2,Tower,ELEV,Elevator L Floor L2,Elevator LL2
+WELEV00ML2,1820,1280,L2,Tower,ELEV,Elevator M Floor L2,Elevator ML2
+WHALL001L2,1745,1524,L2,Tower,HALL,Hallway Connector 1 Floor L2,Hallway W01L2
+ASTOR001L1,1670,860,L1,Tower,STOR,OR Bed Park 1,Bed Park
+ASTOR00103,1498,786,3,Tower,STOR,Pod B clean equipment storage floor 3,Clean pumps 00103
+ASTOR00203,1502,1063,3,Tower,STOR,Pod C clean equipment storage,Clean pumps 00203
+ADIRT00103,1527,942,3,Tower,DIRT,Soiled equipment storage floor 3,Dirty pumps
+APATI00103,1491,864,3,Tower,PATI,Patient room pod B 1 floor 3,Patient 00103
+APATI00203,1454,844,3,Tower,PATI,Patient room pod B 2 floor 3,Patient 00203
+APATI00303,1422,798,3,Tower,PATI,Patient room pod B 3 floor 3,Patient 00303
+APATI00403,1416,755,3,Tower,PATI,Patient room pod B 4 floor 3,Patient 00403
+APATI00503,1436,710,3,Tower,PATI,Patient room pod B 5 floor 3,Patient 00503
+APATI00603,1461,682,3,Tower,PATI,Patient room pod B 6 floor 3,Patient 00603
+APATI00703,1510,665,3,Tower,PATI,Patient room pod B 7 floor 3,Patient 00703
+APATI00803,1552,670,3,Tower,PATI,Patient room pod B 8 floor 3,Patient 00803
+APATI00903,1600,698,3,Tower,PATI,Patient room pod B 9 floor 3,Patient 00903
+APATI01003,1625,743,3,Tower,PATI,Patient room pod B 10 floor 3,Patient 01003
+APATI01103,1619,1106,3,Tower,PATI,Patient room pod C 1 floor 3,Patient 01103
+APATI01203,1599,1150,3,Tower,PATI,Patient room pod C 2 floor 3,Patient 01203
+APATI01303,1552,1177,3,Tower,PATI,Patient room pod C 3 floor 3,Patient 01303
+APATI01403,1503,1183,3,Tower,PATI,Patient room pod C 4 floor 3,Patient 01403
+APATI01503,1460,1162,3,Tower,PATI,Patient room pod C 5 floor 3,Patient 01503
+APATI01603,1428,1133,3,Tower,PATI,Patient room pod C 6 floor 3,Patient 01603
+APATI01703,1416,1090,3,Tower,PATI,Patient room pod C 7 floor 3,Patient 01703
+APATI01803,1416,1047,3,Tower,PATI,Patient room pod C 8 floor 3,Patient 01803
+APATI01903,1442,1000,3,Tower,PATI,Patient room pod C 9 floor 3,Patient 01903
+APATI02003,1491,977,3,Tower,PATI,Patient room pod C 10 floor 3,Patient 02003
+ASTOR00303,1679,806,3,Tower,STOR,Bed recliner storage for Pod A and B floor 3,Bed storage 00303
+ASTOR00403,1668,1041,3,Tower,STOR,Bed recliner storage for Pod C and D floor 3,Bed storage 00403
+APATI00104,1483,864,4,Tower,PATI,Patient room pod B 1 floor 4,Patient 00104
+APATI00204,1442,838,4,Tower,PATI,Patient room pod B 2 floor 4,Patient 00204
+APATI00304,1419,794,4,Tower,PATI,Patient room pod B 3 floor 4,Patient 00304
+APATI00404,1414,745,4,Tower,PATI,Patient room pod B 4 floor 4,Patient 00404
+APATI00504,1427,709,4,Tower,PATI,Patient room pod B 5 floor 4,Patient 00504
+APATI00604,1461,682,4,Tower,PATI,Patient room pod B 6 floor 4,Patient 00604
+APATI00704,1500,663,4,Tower,PATI,Patient room pod B 7 floor 4,Patient 00704
+APATI00804,1554,664,4,Tower,PATI,Patient room pod B 8 floor 4,Patient 00804
+APATI00904,1586,696,4,Tower,PATI,Patient room pod B 9 floor 4,Patient 00904
+APATI01004,1614,738,4,Tower,PATI,Patient room pod B 10 floor 4,Patient 01004
+APATI01104,1490,966,4,Tower,PATI,Patient room pod C 1 floor 4,Patient 01104
+APATI01204,1447,992,4,Tower,PATI,Patient room pod C 2 floor 4,Patient 01204
+APATI01304,1421,1031,4,Tower,PATI,Patient room pod C 3 floor 4,Patient 01304
+APATI01404,1419,1079,4,Tower,PATI,Patient room pod C 4 floor 4,Patient 01404
+APATI01504,1431,1119,4,Tower,PATI,Patient room pod C 5 floor 4,Patient 01504
+APATI01604,1466,1151,4,Tower,PATI,Patient room pod C 6 floor 4,Patient 01604
+APATI01704,1504,1167,4,Tower,PATI,Patient room pod C 7 floor 4,Patient 01704
+APATI01804,1551,1158,4,Tower,PATI,Patient room pod C 8 floor 4,Patient 01804
+APATI01904,1587,1130,4,Tower,PATI,Patient room pod C 9 floor 4,Patient 01904
+APATI02004,1610,1087,4,Tower,PATI,Patient room pod C 10 floor 4,Patient 02004
+APATI00105,1483,864,5,Tower,PATI,Patient room pod B 1 floor 5,Patient 00105
+APATI00205,1442,838,5,Tower,PATI,Patient room pod B 2 floor 5,Patient 00205
+APATI00305,1419,794,5,Tower,PATI,Patient room pod B 3 floor 5,Patient 00305
+APATI00405,1414,745,5,Tower,PATI,Patient room pod B 4 floor 5,Patient 00405
+APATI00505,1427,709,5,Tower,PATI,Patient room pod B 5 floor 5,Patient 00505
+APATI00605,1461,682,5,Tower,PATI,Patient room pod B 6 floor 5,Patient 00605
+APATI00705,1500,663,5,Tower,PATI,Patient room pod B 7 floor 5,Patient 00705
+APATI00805,1554,664,5,Tower,PATI,Patient room pod B 8 floor 5,Patient 00805
+APATI00905,1586,696,5,Tower,PATI,Patient room pod B 9 floor 5,Patient 00905
+APATI01005,1614,738,5,Tower,PATI,Patient room pod B 10 floor 5,Patient 01005
+APATI01105,1728,741,5,Tower,PATI,Patient room pod A 1 floor 5,Patient 01105
+APATI01205,1740,692,5,Tower,PATI,Patient room pod A 2 floor 5,Patient 01205
+APATI01305,1789,665,5,Tower,PATI,Patient room pod A 3 floor 5,Patient 01305
+APATI01405,1838,658,5,Tower,PATI,Patient room pod A 4 floor 5,Patient 01405
+APATI01505,1875,670,5,Tower,PATI,Patient room pod A 5 floor 5,Patient 01505
+APATI01605,1909,700,5,Tower,PATI,Patient room pod A 6 floor 5,Patient 01605
+APATI01705,1923,741,5,Tower,PATI,Patient room pod A 7 floor 5,Patient 01705
+APATI01805,1915,801,5,Tower,PATI,Patient room pod A 8 floor 5,Patient 01805
+APATI01905,1888,833,5,Tower,PATI,Patient room pod A 9 floor 5,Patient 01905
+APATI02005,1840,858,5,Tower,PATI,Patient room pod A 10 floor 5,Patient 02005
+ASTOR001L1,1670,860,L1,Tower,STOR,OR Bed Park 2,Bed Park
+ASTOR00104,1410,776,4,Tower,STOR,Pod B clean equipment storage 1 floor 4,Clean pumps 0010r
+ASTOR00204,1410,1060,4,Tower,STOR,Pod B clean equipment storage 2 floor 4,Clean pumps 0020r
+ASTOR00304,1672,806,4,Tower,STOR,Bed recliner storage 1 for Pod A and B floor 4,Bed storage 0030r
+ASTOR00404,1672,1022,4,Tower,STOR,Bed recliner storage 2 for Pod A and B floor 4,Bed storage 0040r
+ADIRT00104,1527,942,4,Tower,DIRT,Soiled equipment storage floor 4,Dirty pumps
+ASTOR00105,1527,725,5,Tower,STOR,Pod B clean equipment storage floor 5,Clean pumps 00105
+ASTOR00205,1864,753,5,Tower,STOR,Pod A clean equipment storage floor 5,Clean pumps 0010r
+ASTOR00305,1679,806,5,Tower,STOR,Bed recliner storage for Pod A and B floor 5,Bed storage 00305
+ADIRT00105,1527,942,5,Tower,DIRT,Soiled equipment storage floor 5,Dirty pumps

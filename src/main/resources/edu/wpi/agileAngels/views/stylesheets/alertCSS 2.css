@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Roboto;
+    src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap);
+
+}
+.background{
+    -fx-background-color: #F4F4F4;
+
+}
+.label{
+    -fx-text-fill: #443E69;
+    -fx-font-size: 16;
+    font-family: Roboto;
+    -fx-font-weight: 700;
+}
+.button{
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 12;
+    font-family: Roboto;
+    -fx-background-color: #443E69;
+    -fx-font-weight: 700;
+}

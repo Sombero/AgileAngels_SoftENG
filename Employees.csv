@@ -1,0 +1,19 @@
+name,password,duty,permission,department,startTime,endTime,supervisor
+wong,wong,Off Duty,5,Head Man,09:30,19:00
+James,1234,Off Duty,4,Oncology,07:00,19:00,wong
+Liam,hello3,2,3,Nursing,18:00,04:00,James
+Harriot,passWord,4,3,Oncology,05:00,20:00,James
+Alex,dvsvsd,5,3,Radiology,01:00,11:30,Harriot
+Ariana,weeWoo,4,3,Radiology,04:00,17:00,Alex
+Tom,sdcscs,2,4,Neurology,00:00,15:30,James
+Carly,fvdfv,L1,3,Neurology,00:00,15:30,Tom
+Talia,Maryland,3,2,Nursing,00:00,23:00,James
+Aadhya,15557,5,4,Surgery,00:00,20:00,Ariana
+Jakob,,2,4,Surgery,03:00,17:30,Aadhya
+John,556722,L2,1,Sanitation,08:00,17:00,James
+Karl,1118383,3,1,Sanitation,08:00,17:00,John
+Mike,r557h,2,2,Nursing,09:30,19:00,Liam
+staff,staff,Off Duty,1,Staff,09:30,19:00,wong
+nurse,nurse,Off Duty,2,Staff,09:30,19:00,wong
+doctor,doctor,Off Duty,3,Staff,09:30,19:00,wong
+admin,admin,Off Duty,4,Staff,09:30,19:00,wong

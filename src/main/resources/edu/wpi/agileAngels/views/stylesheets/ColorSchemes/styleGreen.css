@@ -1,0 +1,125 @@
+
+@font-face {
+    font-family: Roboto;
+    /*src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap);
+     */
+}
+
+.root{
+   -fx-font-family: "Roboto Light";
+    -fx-background-color: #F2F2F2;
+}
+
+#title{
+    -fx-font-family: "Roboto Thin";
+}
+#circle{
+    -fx-background-color: black;
+}
+/*
+TODO: Clean up CSS and specificity.
+Note that these labels lock your font size.
+ */
+
+#closeApp{
+    -fx-font-size: 12.0;
+}
+
+
+.text-field{
+    -fx-font-size: 14;
+    -fx-prompt-text-fill: rgba(0,0,0,.5);
+}
+
+.text-field:focused{
+    -fx-border-width: 2;
+    -fx-border-color: rgb(30, 166, 0);
+}
+
+.button{
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-effect: dropShadow(gaussian, rgba(0,0,0,0.10), 8, 0, 4, 4);
+    -fx-background-radius: 10;
+    -fx-text-fill: #1c1c1c;
+    -fx-cursor: hand;
+}
+
+.button:pressed{
+    -fx-background-color: rgb(222, 222, 222);
+    -fx-effect: dropShadow(gaussian, rgba(0,0,0,0.10), 8, 0, 2, 2);
+    -fx-translate-x: 1;
+    -fx-translate-y: 1;
+    -fx-background-radius: 10;
+    -fx-text-fill: black;
+}
+
+.topBarIcon {
+    -fx-background-color: rgba(0, 0, 0, 0.0);
+    -fx-effect: none;
+}
+.topBarIcon:hover {
+    -fx-background-radius: 0;
+    -fx-effect: none;
+    -fx-translate-y: 0;
+    -fx-translate-x: 0;
+}
+
+.topBarIcon:pressed{
+    -fx-background-radius: 10;
+    -fx-background-color: rgba(0, 0, 0, 0);
+}
+
+.label{
+    -fx-font-size: 16;
+}
+#topBar{
+    -fx-background-color: rgb(40, 182, 63);
+    -fx-border-width: 0 0 7 0;
+    -fx-border-color: white;
+    -fx-effect: dropShadow(gaussian, rgba(0,0,0,0.10), 16, 0, 4, 0);
+}
+
+.topButton{
+
+    -fx-effect: dropShadow(gaussian, rgba(0,0,0,0.10), 0, 0, 0, 0);
+}
+
+#icon.image{
+    -fx-effect: dropShadow(gaussian, rgba(0,0,0,0.10), 16, 0, 4, 0);
+}
+
+#menuButton{
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-text-fill: white;
+    -fx-font-size: 16;
+}
+
+#menuButton:hover{
+    -fx-translate-y: 2;
+    -fx-border-width: 0 0 4 0;
+    -fx-border-color: rgb(30, 140, 0);
+}
+
+.menu-button{
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-effect: dropShadow(gaussian, rgba(0,0,0,0.10), 16, 0, 4, 4);
+    -fx-background-radius: 10;
+    -fx-text-fill: black;
+}
+.menu-item-button{
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-text-fill: white;
+    -fx-font-size: 16;
+}
+
+
+.menu-item:hover{
+
+}
+
+.text-field{
+    -fx-background-color: white;
+    -fx-border-color: rgb(180,180,180);
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+}

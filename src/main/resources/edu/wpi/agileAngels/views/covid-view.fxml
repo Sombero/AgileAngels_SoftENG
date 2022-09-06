@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="main" fx:id="anchor" maxHeight="720.0" maxWidth="1280.0" minHeight="720.0" minWidth="1280.0" prefHeight="720.0" prefWidth="1280.0" stylesheets="@stylesheets/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.wpi.agileAngels.Controllers.CovidController">
+   <children>
+      <fx:include source="menu-bar.fxml" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" />
+      <Pane layoutX="151.0" layoutY="88.0" prefHeight="154.0" prefWidth="471.0">
+         <children>
+            <Button fx:id="covidButton" alignment="CENTER" layoutX="21.0" layoutY="4.0" mnemonicParsing="false" prefHeight="149.0" prefWidth="420.0" stylesheets="@stylesheets/DashCSS.css" />
+            <Label alignment="CENTER" layoutX="133.0" layoutY="43.0" prefHeight="66.0" prefWidth="188.0" scaleX="2.5" scaleY="2.5" text="Covid-19 Information" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Arial" size="70.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="infoText" layoutX="601.0" layoutY="67.0" prefHeight="204.0" prefWidth="515.0">
+         <children>
+            <Label alignment="TOP_CENTER" layoutX="74.0" layoutY="149.0" prefHeight="38.0" prefWidth="398.0" text="Click on the buttons below to learn what you can do:" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Arial" size="70.0" />
+               </font>
+            </Label>
+            <Label fx:id="mainText" alignment="TOP_CENTER" layoutX="108.0" layoutY="12.0" prefHeight="105.0" prefWidth="315.0" text="We are doing our absolute best to slow the spread of the ongoing coronavirus pandemic. Here are some things you can do to help." textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Arial" size="70.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <GridPane alignment="CENTER" layoutX="154.0" layoutY="268.0" prefHeight="160.0" prefWidth="1108.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="maskButton" alignment="CENTER" mnemonicParsing="false" onAction="#animateMaskText" prefHeight="150.0" prefWidth="150.0" stylesheets="@stylesheets/DashCSS.css">
+               <graphic>
+                  <ImageView fitHeight="130.0" fitWidth="136.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/icons/mask.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="vacButton" alignment="CENTER" mnemonicParsing="false" onAction="#animateVacText" prefHeight="150.0" prefWidth="150.0" stylesheets="@stylesheets/DashCSS.css" GridPane.columnIndex="1">
+               <graphic>
+                  <ImageView fitHeight="130.0" fitWidth="136.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/icons/vaccine.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="houseButton" alignment="CENTER" mnemonicParsing="false" onAction="#animateHouseText" prefHeight="150.0" prefWidth="150.0" stylesheets="@stylesheets/DashCSS.css" GridPane.columnIndex="2">
+               <graphic>
+                  <ImageView fitHeight="130.0" fitWidth="136.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/icons/home.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="distanceButton" alignment="CENTER" mnemonicParsing="false" onAction="#animateDistanceText" prefHeight="150.0" prefWidth="150.0" stylesheets="@stylesheets/DashCSS.css" GridPane.columnIndex="3">
+               <graphic>
+                  <ImageView fitHeight="130.0" fitWidth="136.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/icons/social-distancing.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </GridPane>
+      <Label alignment="TOP_CENTER" layoutX="166.0" layoutY="453.0" prefHeight="3.0" prefWidth="130.0" scaleX="2.0" scaleY="2.0" text="Wear a mask" textAlignment="CENTER" underline="true" wrapText="true">
+         <font>
+            <Font name="Arial" size="70.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="436.0" layoutY="453.0" prefHeight="3.0" prefWidth="130.0" scaleX="2.0" scaleY="2.0" text="Get Vaccinated" textAlignment="CENTER" underline="true" wrapText="true">
+         <font>
+            <Font name="Arial" size="70.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="716.0" layoutY="453.0" prefHeight="0.0" prefWidth="130.0" scaleX="2.0" scaleY="2.0" text="Stay Home" textAlignment="CENTER" underline="true" wrapText="true">
+         <font>
+            <Font name="Arial" size="70.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="990.0" layoutY="453.0" prefHeight="0.0" prefWidth="130.0" scaleX="2.0" scaleY="2.0" text="Keep Distance" textAlignment="CENTER" underline="true" wrapText="true">
+         <font>
+            <Font name="Arial" size="70.0" />
+         </font>
+      </Label>
+      <Label fx:id="maskDesc" alignment="TOP_CENTER" layoutX="141.0" layoutY="488.0" prefHeight="208.0" prefWidth="172.0" text="Not only to protect yourself, but others around you. Masks are mainly meant to keep germs contained but also provide protection to the wearer." textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Arial" size="70.0" />
+         </font>
+      </Label>
+      <Label fx:id="vacDesc" alignment="TOP_CENTER" layoutX="410.0" layoutY="488.0" prefHeight="182.0" prefWidth="172.0" text="If you can, do so as it's the best way to protect yourself. Vaccination does not make you immune but lessens the chance of needing to come to a hospital." textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Arial" size="70.0" />
+         </font>
+      </Label>
+      <Label fx:id="houseDesc" alignment="TOP_CENTER" layoutX="701.0" layoutY="488.0" prefHeight="153.0" prefWidth="172.0" text="If your sick, don't go out, keep friends, family and even strangers safe. Only go out for necessities and or emergencies." textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Arial" size="70.0" />
+         </font>
+      </Label>
+      <Label fx:id="distanceDesc" alignment="TOP_CENTER" layoutX="973.0" layoutY="488.0" prefHeight="188.0" prefWidth="172.0" text="It's recommend to keep 2m (6ft) minimum distance in indoor spaces. If you can do more it never hurts, having gatherings outside is also advised." textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Arial" size="70.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

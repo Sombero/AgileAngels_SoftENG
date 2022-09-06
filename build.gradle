@@ -1,0 +1,160 @@
+plugins {
+    id 'application'
+    id 'java'
+    id 'jacoco'
+    id 'com.diffplug.gradle.spotless' version '3.27.1'
+    id "io.freefair.lombok" version "5.0.0-rc6"
+    id 'org.openjfx.javafxplugin' version '0.0.10'
+    id 'org.beryx.jlink' version '2.24.1'
+}
+mainClassName = 'edu.wpi.agileAngels.Main'
+
+jar {
+
+    manifest {
+        attributes 'Main-Class': mainClassName
+    }
+
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+// Include dependent libraries in archive.
+
+repositories {
+    mavenCentral()
+    jcenter()
+    mavenLocal()
+    maven {
+        url 'https://apisite.crmyers.dev/maven'
+    }
+    maven{
+        url "https://oss.sonatype.org/content/repositories/snapshots"
+    }
+    flatDir{
+        dir 'APIJAR'
+    }
+
+
+
+}
+
+javafx {
+    version = "17"
+    modules = [ 'javafx.controls', 'javafx.fxml', 'javafx.graphics', 'javafx.media']
+}
+run {
+    standardInput = System.in
+}
+
+dependencies {
+    compile group: 'edu.cmu.sphinx', name: 'sphinx4-core', version:'5prealpha-SNAPSHOT'
+    compile group: 'edu.cmu.sphinx', name: 'sphinx4-data', version:'5prealpha-SNAPSHOT'
+    implementation(
+            'com.jfoenix:jfoenix:9.0.10',
+
+            // You may comment out the database dependency you do not use
+            'org.xerial:sqlite-jdbc:3.30.1',
+            'org.apache.derby:derby:10.15.2.0',
+
+            'org.apache.derby:derbytools:10.15.2.0',
+            'org.apache.derby:derbyclient:10.15.2.0',
+            'org.slf4j:slf4j-api:1.7.30',
+            'org.slf4j:slf4j-simple:1.7.30',
+            "org.apache.commons:commons-csv:1.5",
+            'org.controlsfx:controlsfx:11.1.1'
+
+    )
+
+    dependencies {
+        implementation fileTree(dir: 'APIJAR', include: '*.jar')
+        implementation name: 'edu.wpi.cs3733.D22.teamA'
+        implementation name: 'LanguageInterpAPI'
+        implementation name: 'ExternalTransportAPI'}
+    implementation 'org.jetbrains:annotations:20.1.0'
+
+    testCompile(
+            "org.testfx:testfx-core:4.0.16-alpha",
+            'org.junit.jupiter:junit-jupiter:5.6.0',
+            'org.testfx:testfx-junit5:4.0.16-alpha',
+
+    )
+
+    // https://mvnrepository.com/artifact/org.controlsfx/controlsfx
+    implementation group: 'org.controlsfx', name: 'controlsfx', version: '11.1.1'
+
+}
+
+run {
+    jvmArgs = ['--add-exports=javafx.base/com.sun.javafx.runtime=ALL-UNNAMED',
+               '--add-exports=javafx.base/com.sun.javafx.event=ALL-UNNAMED',
+    ]
+}
+
+
+test {
+    useJUnitPlatform()
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': mainClassName
+    }
+}
+
+// added exceptions for all classes so code would build without JUnit tests
+def codeCoverageExcludes = [
+        'edu.wpi.agileAngels.Aapp',
+        'edu.wpi.agileAngels.Main',
+        'edu.wpi.agileAngels.Adb',
+        'edu.wpi.agileAngels.Acontroller',
+]
+
+jacoco {
+    toolVersion = "0.8.4"
+}
+
+jacocoTestCoverageVerification {
+    violationRules {
+        rule {
+            element = 'CLASS'
+            limit {
+                counter = 'CLASS'
+                value = 'COVEREDRATIO'
+                minimum = 1.0
+            }
+            excludes = codeCoverageExcludes
+        }
+
+        rule {
+            element = 'CLASS'
+            limit {
+                counter = 'LINE'
+                value = 'COVEREDRATIO'
+                minimum = 0.25
+            }
+            excludes = codeCoverageExcludes
+        }
+
+        rule {
+            element = 'CLASS'
+            limit {
+                counter = 'BRANCH'
+                value = 'COVEREDRATIO'
+                minimum = 0.25
+            }
+            excludes = codeCoverageExcludes
+        }
+    }
+}
+
+//check.dependsOn jacocoTestCoverageVerification
+//jacocoTestCoverageVerification.dependsOn jacocoTestReport
+compileJava.dependsOn 'spotlessApply'
+
+spotless {
+    java {
+        googleJavaFormat()
+    }
+}

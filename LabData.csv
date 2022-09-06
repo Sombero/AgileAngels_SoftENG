@@ -1,0 +1,5 @@
+name,available,type,location,employee,status,description, attribute1, attribute2
+Lab1,3,Recliner,Salisbury,James,complete,describe, something, something
+Lab2,4,XRay,Higgins,Jakob,Progress,describe, something, something
+Lab3,5,UrineTest,Morgan,Matthew,NotStarted,describe, something, something
+Lab4,0,COVIDTest,RecCenter,Ariana,Complete,Describe, something, something

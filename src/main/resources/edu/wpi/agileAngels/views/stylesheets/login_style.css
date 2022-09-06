@@ -1,0 +1,27 @@
+.linear-grad-to-bottom{
+    -fx-border-color: linear-gradient(to bottom, #453F6A, #019BA5);
+}
+.loginText{
+    -fx-font-weight: bold;
+    -fx-font-size: 30;
+}
+.text-field{
+    -fx-font-size: 23;
+    -fx-border-width: 3;
+}
+.text-field:focused{
+    -fx-border-color: linear-gradient(to bottom, #453F6A, #019BA5);
+}
+.password-field{
+    -fx-font-size: 23;
+    -fx-border-width: 3;
+}
+.loginBUTTON{
+    -fx-background-color: #443E69;
+}
+.forgorPassword{
+    -fx-text-fill: #49484A;
+}
+.errorMessage{
+    -fx-text-fill: #b20f0f;
+}

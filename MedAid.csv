@@ -1,0 +1,10 @@
+Condition-Name,Treatment1,Treatment2,Treatment3
+Influenza,Medication,Rest,N/A
+Pneumonia,Antibiotics,Rest,Hydrate
+Heart Failure,Medication,Surgery,Palliative Care
+Accidents,Therapy,Medication,Rest
+Anxiety,Therapy,Medication,N/A
+Covid-19,Medication,Rest,Hydrate
+Mononucleosis,Rest,Medication,Drink Water
+Diabetes,Medication,N/A,N/A
+Cancer,Medication,Therapy,N/A

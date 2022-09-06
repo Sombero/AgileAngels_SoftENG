@@ -1,0 +1,62 @@
+
+@font-face {
+    font-family: Roboto;
+    src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap);
+
+}
+
+.background{
+    -fx-background-color: #F2F2F2;
+}
+
+.pane{
+    -fx-background-radius: 20 20 20 20;
+    -fx-background-color: #F4F4F4;
+    -fx-effect: dropShadow(gaussian, rgba(0,0,0,0.10), 10, 0, 8, 0);
+    -fx-border-color: rgba(0,0,0,.1);
+    -fx-border-width: 0.5;
+    -fx-border-radius: 20 20 20 20;
+}
+.squareButton{
+    -fx-effect: dropShadow(gaussian, rgba(0,0,0,0.10), 8, 0, 6, 4);
+    -fx-background-radius: 20 20 20 20;
+    -fx-cursor: hand;
+    -fx-shape: "m 0 22 L 47 3 C 53 1 53 -1 47 -3 L 0 -22 L -48 -3 C -53 -1 -53 1 -48 3 Z";
+}
+
+.squareButton:hover{
+-fx-border-width: 100;
+    -fx-border-color: rgba(0,0,0,0.2);
+}
+
+
+.roomButton{
+    -fx-background-color: #FFFFFF;
+    -fx-effect: dropShadow(gaussian, rgba(0,0,0,0.10), 16, 0, 6, 0);
+    -fx-background-radius:  15 15 15 15;
+}
+
+.scroll-pane{
+    -fx-background: #F4F4F4;
+    -fx-border-color: #F4F4F4;
+}
+.message-button{
+    -fx-background-color: #FFFFFF;
+    -fx-effect: dropShadow(gaussian, rgba(0,0,0,0.10), 16, 0, 6, 0);
+    -fx-background-radius:  15 15 15 15;
+}
+.pending-button{
+    -fx-background-color: #F3CBB8;
+    -fx-text-fill: #655555;
+}
+.progress-button{
+    -fx-background-color: #EADA8D;
+    -fx-text-fill: #655555;
+}
+.nurse-button{
+    -fx-background-color: #a46060;
+    -fx-font-size: 25;
+}
+
+.default-color0.chart-bar { -fx-bar-fill: #e97a7a; }
+.default-color1.chart-bar { -fx-bar-fill: #a10101; }

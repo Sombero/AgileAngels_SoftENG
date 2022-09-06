@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="medAid" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.wpi.agileAngels.Controllers.APILandController">
+    <fx:include source="menu-bar.fxml" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" />
+   <Button fx:id="creditsButton" alignment="CENTER" layoutX="498.0" layoutY="593.0" mnemonicParsing="false" onAction="#loadCredits" prefHeight="87.0" prefWidth="303.0" style="-fx-background-radius: 20 20;" stylesheets="@stylesheets/styleRequest.css" textAlignment="CENTER">
+      <font>
+         <Font size="10.0" />
+      </font>
+      <opaqueInsets>
+         <Insets />
+      </opaqueInsets>
+      <graphic>
+         <HBox alignment="CENTER" prefHeight="178.0" prefWidth="434.0" style="-fx-background-radius: 20 20;">
+            <children>
+               <Label alignment="CENTER" prefHeight="95.0" prefWidth="158.0" text="Credits">
+                  <font>
+                     <Font size="24.0" />
+                  </font>
+               </Label>
+            </children>
+            <opaqueInsets>
+               <Insets />
+            </opaqueInsets>
+         </HBox>
+      </graphic>
+   </Button>
+   <GridPane alignment="CENTER" layoutX="173.0" layoutY="151.0">
+     <columnConstraints>
+       <ColumnConstraints hgrow="SOMETIMES" minWidth="440.0" prefWidth="500.0" />
+       <ColumnConstraints hgrow="SOMETIMES" minWidth="440.0" prefWidth="440.0" />
+     </columnConstraints>
+     <rowConstraints>
+       <RowConstraints minHeight="200.0" prefHeight="200.0" vgrow="SOMETIMES" />
+       <RowConstraints minHeight="200.0" prefHeight="200.0" vgrow="SOMETIMES" />
+     </rowConstraints>
+      <children>
+         <Button fx:id="mgbButton" alignment="CENTER" mnemonicParsing="false" onAction="#mgbAction" prefHeight="160.0" prefWidth="440.0" style="-fx-background-radius: 20 20;" stylesheets="@stylesheets/styleRequest.css" textAlignment="CENTER">
+            <font>
+               <Font size="10.0" />
+            </font>
+            <opaqueInsets>
+               <Insets />
+            </opaqueInsets>
+            <graphic>
+               <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                  <opaqueInsets>
+                     <Insets />
+                  </opaqueInsets>
+                  <children>
+                     <VBox alignment="BOTTOM_CENTER" prefHeight="154.0" prefWidth="266.0">
+                        <children>
+                           <Label alignment="TOP_CENTER" prefHeight="91.0" prefWidth="281.0" text="Mass General Networking">
+                              <font>
+                                 <Font size="20.0" />
+                              </font>
+                           </Label>
+                        </children>
+                     </VBox>
+                  </children>
+               </HBox>
+            </graphic>
+         </Button>
+         <Button alignment="CENTER" mnemonicParsing="false" prefHeight="160.0" prefWidth="440.0" style="-fx-background-radius: 20 20;" stylesheets="@stylesheets/styleRequest.css" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <font>
+               <Font size="10.0" />
+            </font>
+            <opaqueInsets>
+               <Insets />
+            </opaqueInsets>
+            <graphic>
+               <HBox alignment="CENTER" prefHeight="186.0" prefWidth="444.0" style="-fx-background-radius: 20 20;">
+                  <children>
+                     <Label fx:id="medAidButton" alignment="CENTER" onMouseClicked="#medAid" prefHeight="95.0" prefWidth="158.0" text="Medical Aid">
+                        <font>
+                           <Font size="24.0" />
+                        </font>
+                     </Label>
+                  </children>
+                  <opaqueInsets>
+                     <Insets />
+                  </opaqueInsets>
+               </HBox>
+            </graphic>
+         </Button>
+         <Button fx:id="languageInterp" alignment="CENTER" mnemonicParsing="false" onAction="#languageAction" prefHeight="160.0" prefWidth="440.0" style="-fx-background-radius: 20 20;" stylesheets="@stylesheets/styleRequest.css" textAlignment="CENTER" GridPane.rowIndex="1">
+            <font>
+               <Font size="10.0" />
+            </font>
+            <opaqueInsets>
+               <Insets />
+            </opaqueInsets>
+            <graphic>
+               <HBox alignment="CENTER" prefHeight="230.0" prefWidth="440.0" style="-fx-background-radius: 20 20;">
+                  <children>
+                     <Label alignment="CENTER" prefHeight="95.0" prefWidth="158.0" text="Interpreter API">
+                        <font>
+                           <Font size="24.0" />
+                        </font>
+                     </Label>
+                  </children>
+                  <opaqueInsets>
+                     <Insets />
+                  </opaqueInsets>
+               </HBox>
+            </graphic>
+         </Button>
+         <Button fx:id="externalTrans" alignment="CENTER" mnemonicParsing="false" onAction="#transAction" prefHeight="160.0" prefWidth="440.0" style="-fx-background-radius: 20 20;" stylesheets="@stylesheets/styleRequest.css" textAlignment="CENTER" GridPane.columnIndex="1">
+            <font>
+               <Font size="10.0" />
+            </font>
+            <opaqueInsets>
+               <Insets />
+            </opaqueInsets>
+            <graphic>
+               <HBox alignment="CENTER" prefHeight="171.0" prefWidth="434.0" style="-fx-background-radius: 20 20;">
+                  <children>
+                     <Label alignment="CENTER" prefHeight="95.0" prefWidth="208.0" text="External Transport API">
+                        <font>
+                           <Font size="24.0" />
+                        </font>
+                     </Label>
+                  </children>
+                  <opaqueInsets>
+                     <Insets />
+                  </opaqueInsets>
+               </HBox>
+            </graphic>
+         </Button>
+      </children>
+   </GridPane>
+
+
+</AnchorPane>
